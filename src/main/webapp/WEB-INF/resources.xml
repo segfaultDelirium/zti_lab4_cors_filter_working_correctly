@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <Resource id="jdbc/postgres" type="javax.sql.DataSource">
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl   = jdbc:postgresql://trumpet.db.elephantsql.com:5432/vppbhvzu
+        UserName  = vppbhvzu
+        Password  = jSQW8UyiwBWLu9xSsjYnRzV3NLU3J8Xs
+        JtaManaged = false
+        initialSize = 2
+        maxActive = 2
+        maxIdle = 1
+        minIdle = 1
+    </Resource>
+</resources>
